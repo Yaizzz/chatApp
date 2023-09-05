@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373183175217",
+    "project_id": "chatapp-ycd",
+    "storage_bucket": "chatapp-ycd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373183175217:android:72f238bb0f4929333fd310",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373183175217-2b0i91vb0s36j66gnag35atektipg6h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBymm2Y9TrUGl5dIM9V8S6AHmUHt6J3Kbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373183175217-2b0i91vb0s36j66gnag35atektipg6h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
