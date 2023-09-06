@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Page"),
+        title: const Text("Home Page"),
         actions: [
           //sign out button
           IconButton(
@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  //build a list of users for the current logged in user
+  //build a list of users except for the current logged in user
   Widget _buildUserList() {
     return StreamBuilder<QuerySnapshot>(
       stream: FirebaseFirestore.instance.collection('users').snapshots(),
